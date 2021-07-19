@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Busca</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Css/style.css">
+	<link rel="stylesheet" type="text/css" href="../Css/bootstrap.min.css">
+	<script type="text/javascript" src="../Js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="../Js/bootstrap.min.js"></script>
+</head>
+<body onload="buscaPerf()" class="cloudBack">
+<!-- Menu cabeçario -->
+<header class="head" style="background-color: #343434;">
+	<div class="logo">
+		<img src="#" alt="ERRor404">
+	</div>
+
+	<nav class="menu float-right">
+		<button class="dropdown-btn">
+			Menu
+		</button>
+
+		<div class="dropdown-itens">
+			<a class="buton-menu" href="#" data-toggle="modal" data-target="#exampleModal">Entrar</a>
+			<a class="buton-menu" href="#" data-toggle="modal" data-target="#exampleModal">Cadastrar-se</a>
+		</div>
+	</nav>
+</header>
+<!-- fim -->
+
+<!-- busca -->
+<section class="container my-3 text-center" style="background-color: #343434; border-radius: 4px;">
+	<h1>Busca Perfil</h1>
+
+	<div class="p-2">
+		<form>
+			<input type="text" name="buscfml" class="searchPerf">
+			<input type="submit" name="" value="Buscar" class="btnBusc">
+<!--
+			<select class="btnDrop">	
+				<option hidden>V</option>
+				<option>Test</option>
+				<option>Test</option>
+				<option>Test</option>
+				<option>Test</option>
+				<option>Test</option>
+				<option>Test</option>
+			</select>	
+-->
+		</form>
+	</div>
+
+</section>
+<!-- fim -->
+
+<!-- listagem das minas -->
+<section class="container-fluid mb-3">
+	<div class="row">
+		<article class="col-md" style="background-color: #343434;">
+			<h3 class="text-center">A</h3>
+
+			<ul style="list-style: none;" class="text-center float-left">
+				<div id="exibicao"></div>
+				<!-- <div class="float-left my-3">
+					<img src="../Img/Perfil/3.jpg" class="float-left" alt="..." height="60" width="60" style="border-radius: 50%;">
+					<a href="#" class="float-left"><li>Nome De Perfil(false)</li></a>
+				</div> -->
+			</ul>
+			
+			<a class="viewMore float-right mb-3" style="float: right;" href="./busca_detalha.html">Ver Mais</a>
+			
+		</article>
+
+		<article class="col-md">
+			<h3 class="text-center">B</h3>
+
+			<ul style="list-style: none;" class="float-left">
+				<div id="exibicaoTw"></div>
+			</ul>
+			
+			<a class="viewMore float-right mb-3" style="float: right;" href="./busca_detalha.html">Ver Mais</a>
+			
+		</article>
+
+		<article class="col-md" style="background-color: #343434;">
+			<h3 class="text-center">C</h3>
+
+			<ul style="list-style: none;" class="float-left">
+				<div id="exibicaoThr"></div>
+			</ul>
+			
+			<a class="viewMore float-right mb-3" style="float: right;" href="./busca_detalha.html">Ver Mais</a>
+
+		</article>
+
+		<article class="col-md">
+			<h3 class="text-center">D</h3>
+
+			<ul style="list-style: none;" class="float-left">
+				<div id="exibicaoFr"></div>
+			</ul>
+            
+            <a class="viewMore float-right mb-3" style="float: right;" href="./busca_detalha.html">Ver Mais</a>        
+						
+		</article>				
+	</div>
+</section>
+<!-- fim -->
+
+<!-- navegacao pg-->
+<!--
+<nav aria-label="Page navigation example">
+	<ul class="pagination justify-content-center">
+	  <li class="page-item disabled">
+	    <a class="page-link" href="#" tabindex="-1">Previous</a>
+	  </li>
+	    
+	  <li class="page-item"><a class="page-link" href="#">1</a></li>
+	  <li class="page-item"><a class="page-link" href="#">2</a></li>
+	  <li class="page-item"><a class="page-link" href="#">3</a></li>
+	    
+	  <li class="page-item">
+	    <a class="page-link" href="#">Next</a>
+	  </li>
+	</ul>
+</nav>
+-->
+<!-- fim -->
+
+<!-- modals -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color: black;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fim -->
+
+<footer>
+	<script type="text/javascript" src="../Js/exib.js"></script>
+</footer>
+
+</body>
+</html>

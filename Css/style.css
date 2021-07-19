@@ -1,0 +1,452 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.cloudBack{
+	color: white;
+	background-color: #232323;
+}
+/* cabeçario */
+.head{
+	display: block;
+	width: 100%;
+	max-height: 50px;
+	height: 50px;
+	/*border: 1px solid #000;*/
+}
+.dropdown-btn{
+	display: none;
+}
+.logo{
+	display: inline-block;
+	height: 50px;
+	/*border: 1px solid #000;*/
+}
+.menu{
+	display: inline-block;
+	height: 50px;
+}
+.dropdown-itens{
+	padding-top: 12px;
+}
+.buton-menu{
+	/*padding: 22px 12px;*/
+	padding: 8px;
+	max-height: 100px;
+	max-width: 150px;
+	color: white;
+	text-align: center;
+	border: 1px solid #b62b6e;
+	border-radius: 6px;
+	background-color: #b62b6e;  
+}
+.buton-menu:hover{
+	text-decoration: none;
+	background-color: white;
+	color: #b62b6e;
+}
+.buton-lover:hover{
+	border: 1px solid #DC3545;
+	color: #DC3545;
+	background-color: white;
+}
+/* fim */
+
+/* Detalha do site*/
+.girls-web{
+	/*border: 1px solid #000;*/
+	display: inline-block;
+}
+.girls-web img{
+	height: 150px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+/* fim */
+
+/* paralax */
+.paralax-girl{
+	background-image: url(../Img/Exibicao/paralax.jpg);
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	 
+}
+.paralax-girl02{
+	background-image: url(../Img/Exibicao/paralax02.jpg);
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	 
+}
+/* fim */
+
+/* produtos */
+.perfil-girls{
+	border: none;
+	border-radius: 4px;
+	max-width: 305px;
+	width: 80%;
+	display: inline-block;
+	background-color: white;
+	color: #232323;
+}
+.perfil-girls img{
+	height: 180px;
+	width: 100%;
+	border-radius: 5px;
+}
+.perfil-girls .buton-perfil{
+	text-decoration: none;
+	color: white;
+}
+.perfil-girls .btn{
+	background-color: #b62b6e;
+	color: white;
+}
+.btn:hover{
+	background-color: white;
+	color: #b62b6e;
+	border: 1px solid #b62b6e; 
+}
+/* fim */
+
+/* contato */
+.icon img{
+	max-height: 25px;
+	max-width: 25px; 
+}
+.headCenter{
+	background-color: white;
+	color: black;
+}
+.formContact .namemail{
+	height: 40px; 
+	width: 200px; 
+	max-height: 40px; 
+	max-width: 200px;	
+}
+.formContact .message{
+	height: 80px; 
+	width: 400px;
+	max-height: 80px; 
+	max-width: 400px;
+}
+.formContact .envia{
+	background-color:#b62b6e; 
+	color:white;
+}
+/* fim */
+
+/* UserFml */
+.user{
+	background-color: #c8c8c8;
+}
+/*parte of perfil*/
+.fundwht{
+	border-radius: 4px; 
+	background-color: white;
+}
+.fundTema{
+    border-radius: 4px; 
+    background-image: url(../../SMS/Img/Perfil/3p.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.test{
+	border: 1px solid #000;
+}
+.perfilItem{
+	display: inline-block;
+}
+.perfilBtn{
+	max-height: 50px; 
+    max-width: 150.31px;
+    height: 100%;
+    width: 100%;
+    border:1px solid #000; 
+    color: white; 
+    background-color: #b62b6e; 
+    padding: 10px; 
+    border-radius: 4px;
+    border: none;
+}
+.perfilBtn:hover{
+	background-color: white;
+	color: #b62b6e;
+	border: 1px solid #b62b6e;
+    text-decoration: none;
+}
+.perfilFoto{
+	position: relative;
+	top: 150px;
+    border: 1px solid white;
+}
+.perfilFoto img{
+    max-height: 400px;
+    max-width: 400px;
+    height: 100%;
+    border-radius: 50%;
+}
+/*
+.userPhoto{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+*/
+.notChat{
+   max-height: 90px;
+   max-width: 900px;
+   height: 100%;
+   width: 100%;    
+}
+.notChatDt{
+    position: relative;
+    left: -130px;
+    top: 20px;
+}
+.notChatBtn{
+    position: relative;
+    left: -100px;
+    top: 10px;
+    height: 30px;
+    width: 135px;
+    text-decoration: none;
+    background-color: #b62b6e;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.notChatBtn:hover{
+    background-color: white;
+    color: #b62b6e;
+    border: 1px solid #b62b6e;
+    text-decoration: none;
+}
+/*fim*/
+
+/* fim */
+
+/* UserMale */
+
+.testPsBtn{
+    position: relative;
+    top: -120px;
+    left: -220px;
+}
+.testPsPerf{
+   position: relative;
+   top: 150px;
+   left: 80px;
+}
+.fundwhtMl{
+    border-radius: 4px; 
+    background-image: url(../../SMS/Img/TemaPerf/Mantema1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+/* fim */
+
+/* Busca */
+.btnBusc{
+    background-color: #b62b6e;
+	color: white;
+    border: none;
+    border-radius: 2px;
+    max-height: 80px;
+    max-width: 65px;
+    height: 30px;
+    width: 100%;
+
+}
+.btnBusc:hover{
+   background-color: white;
+   color: #b62b6e;
+   border: 1px solid #b62b6e;    
+}
+.btnDrop{
+    background-color: #b62b6e;
+	color: white;
+    border: none;
+    border-radius: 2px;
+    max-height: 80px;
+    max-width: 45px;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+.searchPerf{
+    border: none;
+    border-radius: 4px;
+    max-height: 80px;
+    max-width: 300px;
+    width: 100%;
+    height: 30px;
+}
+.viewMore{
+    background-color: #b62b6e;
+	color: white;
+    border: none;
+    border-radius: 4px;
+    max-height: 80px;
+    max-width: 110px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.viewMore:hover{
+   border: 1px solid white;
+   cursor: pointer;
+}
+/* fim */
+
+/* modal color */
+.mdBack{
+    background-color: #232323;
+}
+
+/* responsivo */
+@media only screen and (max-width: 1000px){
+/*  page usuario  */
+    /*notificação de chat*/
+    .notChatBtn{
+        position: relative;
+        left: -340px;
+        top: 45px;
+        height: 30px;
+        width: 135px; 
+    }
+    /*fim*/
+    
+    /*parte of perfil nome*/
+    .perfilFoto img{
+        max-height: 300px;
+        max-width: 300px;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .perfilItemChat{
+        position: relative;
+        left: -80px;
+        top: 110px;
+    }
+    .perfilItemDn{
+        position: relative;
+        left: 80px;
+        top: 110px; 
+    }
+}
+@media only screen and (max-width: 992px){
+/* page usuario */
+   /*parte of perfil nome*/
+    .perfilItemChat{
+        position: relative;
+        left: -20px;
+        top: 110px;
+    }
+    .perfilItemDn{
+        position: relative;
+        left: 20px;
+        top: 110px; 
+    }
+}
+@media only screen and (max-width: 766px){
+/* page usuario */
+    .notChatBtn{
+        position: relative;
+        left: 100px;
+        top: -35px;
+        height: 30px;
+        width: 135px; 
+    }
+    .perfilBtn{
+        display: none;
+    }
+    .perfilFoto img{
+        max-height: 200px;
+        max-width: 200px;
+        height: 100%;
+    }
+    .perfilFoto{
+	    position: relative;
+	    top: 1px;
+        border: 1px solid white;
+    }
+    .testText{
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+	.dropdown-btn{
+		display: block;
+		background-color: #b62b6e;
+		border: 1px solid #b62b6e;
+		color: white;
+		height: 50px;
+		width: 80px;
+		font-size: 16px;
+	}
+	.dropdown-itens{
+		display: none;
+		position: absolute;
+		right: 1px;
+		padding-top: 0;
+		background-color: #f1f1f1;
+		max-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+  		border-radius: 4px;
+	}
+	.buton-menu{
+		border-radius: 0px;
+	}
+	.dropdown-itens .buton-menu{
+		color: white;
+		border: 1px solid white;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	.dropdown-itens .buton-menu:hover{
+		/*background-color: #ddd;*/
+		text-decoration: none;
+		background-color: white;
+		color: #b62b6e;
+		border: 1px solid #b62b6e;
+	}
+	.menu:hover .dropdown-itens{
+		display: block;
+	}
+	.menu:hover .dropdown-btn{
+		background-color: #b62b6e;
+		color: white;
+	}
+
+	/* formulario e contato */
+}
+@media only screen and (max-width: 529px){
+     .notChatBtn{
+        position: relative;
+        left: -100px;
+        top: -35px;
+        height: 30px;
+        width: 135px; 
+    }
+    .notChatDt{
+        position: relative;
+        left: 80px;
+        top: -59px;
+    }    
+}
+
+/* fim */
